@@ -1,0 +1,7 @@
+name: Lock File Helper
+description: Helper composite whose refs get moved/deleted in lockfile experiments
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo "Helper V1"
